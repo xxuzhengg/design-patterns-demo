@@ -13,8 +13,8 @@ import behavioral.responsibility.service.AbstractLogger;
 public class ChainPatternDemo {
 
     private static AbstractLogger getChainOfLoggers() {
-        AbstractLogger infoLogger = new DebugLogger(AbstractLogger.INFO);
-        AbstractLogger debugLogger = new InfoLogger(AbstractLogger.DEBUG);
+        AbstractLogger infoLogger = new InfoLogger(AbstractLogger.INFO);
+        AbstractLogger debugLogger = new DebugLogger(AbstractLogger.DEBUG);
         AbstractLogger errorLogger = new ErrorLogger(AbstractLogger.ERROR);
 
         infoLogger.setNextLogger(debugLogger);
