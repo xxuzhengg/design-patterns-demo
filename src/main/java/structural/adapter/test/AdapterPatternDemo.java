@@ -2,6 +2,9 @@ package structural.adapter.test;
 
 import structural.adapter.impl.AudioPlayer;
 
+/**
+ * 使用 AudioPlayer 来播放不同类型的音频格式。
+ */
 public class AdapterPatternDemo {
 
     public static void main(String[] args) {

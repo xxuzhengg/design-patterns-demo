@@ -5,6 +5,9 @@ import structural.adapter.impl.VlcPlayer;
 import structural.adapter.service.AdvancedMediaPlayer;
 import structural.adapter.service.MediaPlayer;
 
+/**
+ * 创建实现了 MediaPlayer 接口的适配器类。
+ */
 public class MediaAdapter implements MediaPlayer {
 
     private AdvancedMediaPlayer advancedMusicPlayer;

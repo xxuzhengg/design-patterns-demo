@@ -1,5 +1,8 @@
 package structural.adapter.service;
 
+/**
+ * 更高级的媒体播放器
+ */
 public interface AdvancedMediaPlayer {
 
     public void playVlc(String fileName);
